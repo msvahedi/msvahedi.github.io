@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "محدثه سادات واحدی"
 title_separator          : "-"
 name                     : "MohadesehSadat" 
-description              : "Welcome to my web site."
+description              : "Welcome to my website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : #the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -84,7 +84,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : sauleh_e
+  username               : msvahedi2005
 facebook:
   username               : sauleh.eetemadi
   app_id                 :
@@ -112,11 +112,11 @@ author:
   bio              : I'm the best student.
   location         : "تهران"
   email            : msadatvahedi@gmail.com
-  twitter: sauleh_e
-  linkedin: sauleh
+  twitter: msvahedi2005
+  linkedin: mohadesehsadat-vahedi8425
   google_scholar: Q25s5KkAAAAJ
-  github: sauleh
-  instagram: saulehe
+  github: msvahedi
+  instagram: real___msv
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
