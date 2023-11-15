@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "CV"
-    url: /cv/
   - title: "Courses"
     url: /courses/
   - title: "Friends"
