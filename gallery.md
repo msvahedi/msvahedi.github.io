@@ -11,7 +11,7 @@ gallery:
     image_path: /assets/images/IUST.png
     alt: "placeholder image 1"
     title: "My Uni"
-    - url: /assets/images/farzanegan.jpg
+  - url: /assets/images/farzanegan.jpg
     image_path: /assets/images/farzanegan.jpg
     alt: "placeholder image 2"
     title: "My School"
