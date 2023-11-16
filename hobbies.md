@@ -11,4 +11,4 @@ comments: false
 
 * [reading](https://en.wikipedia.org/wiki/Reading)
 * [sleeping](https://en.wikipedia.org/wiki/Sleep)
-* [sleeping](https://en.wikipedia.org/wiki/Eating)
+* [eating](https://en.wikipedia.org/wiki/Eating)
