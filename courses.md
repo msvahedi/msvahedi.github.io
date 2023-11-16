@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 permalink: 
 title: Courses
-tags: [Studying, courses]
+tags: [Studying]
 modified: 9-14-2019
 comments: false
 ---
@@ -11,8 +11,10 @@ comments: false
 
 |                **Current**                 |
 |----|------|--------------------------------|
-|2019|Fall  | **<a href="">Computer Programming Fundamentals</a>** |
+|2019|A     |                                |
 |----|------|--------------------------------|
-|2019|Fall  | **<a href="/ds98/">Data Structures</a>** |
+|2019|B     |                                |
 |----|------|--------------------------------|
-|2019|Fall  | **<a href="">Computer Lab</a>** |
+|2019|C     |                                |
+|----|------|--------------------------------|
+|2019|D     |                                |
