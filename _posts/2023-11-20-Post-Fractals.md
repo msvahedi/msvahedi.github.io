@@ -9,8 +9,8 @@ let's take a look are my works and their codes:   <br>
 - Triangle
 - Star
 
-##Square
-![alt text](../assets/fractal/Square.png "Square" =300x)
+##Square   <br>
+<img src="Square.png" alt="drawing" width="300"/>
 
 ```
 import turtle
@@ -30,8 +30,8 @@ square(300)
 turtle.mainloop()
 ```
 
-##Triangle
-![alt text](../assets/fractal/Triangle.png "Triangle" =300x)
+##Triangle   <br>
+<img src="Triangle.png" alt="drawing" width="300"/>
 
 ```
 import turtle
@@ -52,8 +52,8 @@ turtle.update()
 turtle.mainloop()
 ```
 
-##Star
-![alt text](../assets/fractal/Staaar.png "Star" =300x)
+##Star   <br>
+<img src="Star.png" alt="drawing" width="300"/>
 
 ```
 import turtle
