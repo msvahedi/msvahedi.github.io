@@ -10,7 +10,7 @@ let's take a look are my works and their codes:   <br>
 - Star
 
 ##Square
-![alt text](../assets/fractal/Square.png "Square")
+![alt text](../assets/fractal/Square.png "Square" =300x)
 
 ```
 import turtle
@@ -31,7 +31,7 @@ turtle.mainloop()
 ```
 
 ##Triangle
-![alt text](../assets/fractal/Triangle.png "Triangle")
+![alt text](../assets/fractal/Triangle.png "Triangle" =300x)
 
 ```
 import turtle
@@ -53,7 +53,7 @@ turtle.mainloop()
 ```
 
 ##Star
-![alt text](../assets/fractal/Staaar.png "Star")
+![alt text](../assets/fractal/Staaar.png "Star" =300x)
 
 ```
 import turtle
