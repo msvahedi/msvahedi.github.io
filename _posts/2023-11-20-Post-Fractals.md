@@ -4,8 +4,12 @@ title: Fractals I've Made
 ---
 
 I have recently learnt how to make some simple fractals by python at university.   <br>
-let's take a look are my square, triangle and star and their codes:
+let's take a look are my works and their codes:   <br>
+- Square
+- Triangle
+- Star
 
+##Square
 ![alt text](../assets/fractal/Square.png "Square")
 
 ```
@@ -26,6 +30,7 @@ square(300)
 turtle.mainloop()
 ```
 
+##Triangle
 ![alt text](../assets/fractal/Triangle.png "Triangle")
 
 ```
@@ -47,6 +52,7 @@ turtle.update()
 turtle.mainloop()
 ```
 
+##Star
 ![alt text](../assets/fractal/Staaar.png "Star")
 
 ```
@@ -65,3 +71,5 @@ star(500)
 turtle.update()
 turtle.mainloop()
 ```
+
+[**FRACTAL**](https://en.wikipedia.org/wiki/Fractal)
