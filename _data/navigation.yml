@@ -1,11 +1,5 @@
 # main links
 main:
-  - title: "Courses"
-    url: /courses/
-  - title: "Friends"
-    url: /friends/
-  - title: "Links"
-    url: /links/
   - title: "Hobbies"
     url: /hobbies/  
   - title: "Gallery"
