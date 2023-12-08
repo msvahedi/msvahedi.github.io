@@ -21,7 +21,6 @@
    *
    */
 
-
   /**
    * Private static constants
    */
@@ -38,7 +37,6 @@
     REMOVING_CLASS = 'mfp-removing',
     PREVENT_CLOSE_CLASS = 'mfp-prevent-close';
 
-
   /**
    * Private vars
    */
@@ -52,7 +50,6 @@
     _prevContentType,
     _wrapClasses,
     _currPopupType;
-
 
   /**
    * Private functions
@@ -120,8 +117,6 @@
 
       return false;
     };
-
-
 
   /**
    * Public functions
@@ -202,8 +197,6 @@
         mfp.currTemplate = {};
       }
 
-
-
       mfp.st = $.extend(true, {}, $.magnificPopup.defaults, data );
       mfp.fixedContentPos = mfp.st.fixedContentPos === 'auto' ? !mfp.probablyMobile : mfp.st.fixedContentPos;
 
@@ -213,7 +206,6 @@
         mfp.st.showCloseBtn = false;
         mfp.st.enableEscapeKey = false;
       }
-
 
       // Building markup
       // main containers are created only once
@@ -238,7 +230,6 @@
         mfp.preloader = _getEl('preloader', mfp.container, mfp.st.tLoading);
       }
 
-
       // Initializing modules
       var modules = $.magnificPopup.modules;
       for(i = 0; i < modules.length; i++) {
@@ -247,7 +238,6 @@
         mfp['init'+n].call(mfp);
       }
       _mfpTrigger('BeforeOpen');
-
 
       if(mfp.st.showCloseBtn) {
         // Close button
@@ -264,8 +254,6 @@
       if(mfp.st.alignTop) {
         _wrapClasses += ' mfp-align-top';
       }
-
-
 
       if(mfp.fixedContentPos) {
         mfp.wrap.css({
@@ -285,8 +273,6 @@
           position: 'absolute'
         });
       }
-
-
 
       if(mfp.st.enableEscapeKey) {
         // Close on ESC key
@@ -313,7 +299,6 @@
       // this triggers recalculation of layout, so we get it once to not to trigger twice
       var windowHeight = mfp.wH = _window.height();
 
-
       var windowStyles = {};
 
       if( mfp.fixedContentPos ) {
@@ -333,8 +318,6 @@
           $('body, html').css('overflow', 'hidden');
         }
       }
-
-
 
       var classesToadd = mfp.st.mainClass;
       if(mfp.isIE7) {
@@ -443,7 +426,6 @@
           mfp.currTemplate.closeBtn.detach();
       }
 
-
       if(mfp.st.autoFocusLast && mfp._lastFocusedEl) {
         $(mfp._lastFocusedEl).focus(); // put tab focus back
       }
@@ -531,7 +513,6 @@
       _mfpTrigger('AfterChange');
     },
 
-
     /**
      * Set HTML content of popup
      */
@@ -557,7 +538,6 @@
 
       mfp.contentContainer.append(mfp.content);
     },
-
 
     /**
      * Creates Magnific Popup data object based on given data
@@ -599,7 +579,6 @@
 
       return mfp.items[index];
     },
-
 
     /**
      * Initializes single popup or a group of popups
@@ -668,7 +647,6 @@
       mfp.open(options);
     },
 
-
     /**
      * Updates text on preloader
      */
@@ -703,7 +681,6 @@
         _prevStatus = status;
       }
     },
-
 
     /*
       "Private" helpers that aren't private at all
@@ -815,9 +792,6 @@
 
   }; /* MagnificPopup core prototype end */
 
-
-
-
   /**
    * Public static functions
    */
@@ -903,8 +877,6 @@
 
     }
   };
-
-
 
   $.fn.magnificPopup = function(options) {
     _checkInstance();
@@ -1295,7 +1267,6 @@
           },
           imgSt = mfp.st.image;
 
-
         var el = template.find('.mfp-img');
         if(el.length) {
           var img = document.createElement('img');
@@ -1515,7 +1486,6 @@
         var paddingBottom = parseInt(el.css('padding-bottom'),10);
         offset.top -= ( $(window).scrollTop() - paddingTop );
 
-
         /*
 
         Animating left + top + width/height looks glitchy in Firefox, but perfect in Chrome. And vice-versa.
@@ -1539,8 +1509,6 @@
 
     }
   });
-
-
 
   /*>>zoom*/
 
@@ -1646,8 +1614,6 @@
       }
     }
   });
-
-
 
   /*>>iframe*/
 

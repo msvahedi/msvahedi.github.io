@@ -1,7 +1,6 @@
 // Unprefix Susy
 // =============
 
-
 // Span
 // ----
 /// Un-prefixed alias for `susy-span`
@@ -19,7 +18,6 @@
   @return susy-span($span, $config);
 }
 
-
 // Gutter
 // ------
 /// Un-prefixed alias for `susy-gutter`
@@ -36,7 +34,6 @@
 ) {
   @return susy-gutter($context, $config);
 }
-
 
 // Slice
 // -----

@@ -43,7 +43,6 @@
 
 	};
 
-
 	//
 	// Methods
 	//
@@ -248,7 +247,6 @@
 
 	};
 
-
 	/**
 	 * Activate parent navs in a nested navigation
 	 * @param  {Node}   nav      The starting navigation element
@@ -314,7 +312,6 @@
 
 		var publicAPIs = {};
 		var navItems, contents, current, timeout, settings;
-
 
 		//
 		// Methods
@@ -462,7 +459,6 @@
 
 		};
 
-
 		//
 		// Initialize and return the public APIs
 		//
@@ -471,7 +467,6 @@
 		return publicAPIs;
 
 	};
-
 
 	//
 	// Return the Constructor

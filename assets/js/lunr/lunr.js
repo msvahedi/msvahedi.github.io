@@ -446,12 +446,9 @@ lunr.tokenizer = function (obj, metadata) {
           )
         )
       }
-
       sliceStart = sliceEnd + 1
     }
-
   }
-
   return tokens
 }
 
@@ -581,7 +578,6 @@ lunr.Pipeline.load = function (serialised) {
       throw new Error('Cannot load unregistered function: ' + fnName)
     }
   })
-
   return pipeline
 }
 
@@ -617,7 +613,6 @@ lunr.Pipeline.prototype.after = function (existingFn, newFn) {
   if (pos == -1) {
     throw new Error('Cannot find existingFn')
   }
-
   pos = pos + 1
   this._stack.splice(pos, 0, newFn)
 }
@@ -686,7 +681,6 @@ lunr.Pipeline.prototype.run = function (tokens) {
 
     tokens = memo
   }
-
   return tokens
 }
 
@@ -755,7 +749,6 @@ lunr.Vector = function (elements) {
   this._magnitude = 0
   this.elements = elements || []
 }
-
 
 /**
  * Calculates the position within the vector to insert a given index.
@@ -859,7 +852,6 @@ lunr.Vector.prototype.magnitude = function () {
     var val = this.elements[i]
     sumOfSquares += val * val
   }
-
   return this._magnitude = Math.sqrt(sumOfSquares)
 }
 
@@ -1569,7 +1561,6 @@ lunr.TokenSet.fromFuzzyString = function (str, editDistance) {
       }
     }
   }
-
   return root
 }
 
@@ -1611,7 +1602,6 @@ lunr.TokenSet.fromString = function (str) {
       node = next
     }
   }
-
   return root
 }
 
@@ -1652,7 +1642,6 @@ lunr.TokenSet.prototype.toArray = function () {
       })
     }
   }
-
   return words
 }
 
@@ -1689,7 +1678,6 @@ lunr.TokenSet.prototype.toString = function () {
 
     str = str + label + node.id
   }
-
   return str
 }
 
@@ -2540,7 +2528,6 @@ lunr.Builder.prototype.add = function (doc, attributes) {
         this.invertedIndex[term][fieldName][docRef][metadataKey].push(metadata)
       }
     }
-
   }
 }
 
@@ -2597,7 +2584,6 @@ lunr.Builder.prototype.createFieldVectors = function () {
         terms = Object.keys(termFrequencies),
         termsLength = terms.length
 
-
     var fieldBoost = this._fields[fieldName].boost || 1,
         docBoost = this._documents[fieldRef.docRef].boost || 1
 
@@ -2627,10 +2613,8 @@ lunr.Builder.prototype.createFieldVectors = function () {
 
       fieldVector.insert(termIndex, scoreWithPrecision)
     }
-
     fieldVectors[fieldRef] = fieldVector
   }
-
   this.fieldVectors = fieldVectors
 }
 
@@ -2756,7 +2740,6 @@ lunr.MatchData.prototype.combine = function (otherMatchData) {
         } else {
           this.metadata[term][field][key] = this.metadata[term][field][key].concat(otherMatchData.metadata[term][field][key])
         }
-
       }
     }
   }
@@ -2938,7 +2921,6 @@ lunr.Query.prototype.isNegated = function () {
       return false
     }
   }
-
   return true
 }
 

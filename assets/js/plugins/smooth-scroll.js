@@ -52,7 +52,6 @@
 
 	};
 
-
 	//
 	// Utility Methods
 	//
@@ -381,7 +380,6 @@
 		var smoothScroll = {}; // Object for public APIs
 		var settings, anchor, toggle, fixedHeader, eventTimeout, animationInterval;
 
-
 		//
 		// Methods
 		//
@@ -611,13 +609,11 @@
 
 		};
 
-
 		//
 		// Initialize plugin
 		//
 
 		smoothScroll.init(options);
-
 
 		//
 		// Public APIs

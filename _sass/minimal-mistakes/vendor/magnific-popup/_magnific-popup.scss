@@ -211,7 +211,6 @@ $mfp-use-visuallyhidden:              false !default; // Hide content from brows
   }
 }
 
-
 ////////////////////////
 // 3. Appearance
 ////////////////////////
@@ -270,7 +269,6 @@ button {
       border: 0
   }
 }
-
 
 // Close icon
 .mfp-close {
@@ -534,7 +532,6 @@ button {
       }
     }
   }
-
 
   @if $mfp-include-mobile-layout-for-image {
     @media screen and (max-width: 800px) and (orientation:landscape), screen and (max-height: 300px) {

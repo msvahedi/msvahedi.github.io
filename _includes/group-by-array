@@ -30,7 +30,6 @@
 {% assign previous = name %}
 {% endfor %}
 
-
 <!-- group_items -->
 {% for name in group_names %}
 

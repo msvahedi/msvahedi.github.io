@@ -120,7 +120,6 @@ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
     $empty-media: false;
   }
 
-
   $query-resolution: false;
 
   $query-holder: breakpoint-parse-query($query);

@@ -43,7 +43,6 @@ $_susy-error-output-override: false !default;
   @error '[#{$source}] #{$message}';
 }
 
-
 // Su Is Comparable
 // ----------------
 /// Check that the units in a grid are comparable
@@ -81,7 +80,6 @@ $_susy-error-output-override: false !default;
 
   @return if(unitless($first), 'fluid', 'static');
 }
-
 
 // Su Map Add Units
 // ----------------
@@ -125,7 +123,6 @@ $_susy-error-output-override: false !default;
 
   @return map-merge($map, ($unit: $has + $value));
 }
-
 
 // Susy Flatten
 // ------------
