@@ -9,8 +9,9 @@ let's take a look are my works and their codes:   <br>
 - Triangle
 - Star
 
-##Square   <br>
-![alt text](../assets/images/Square.png "Square")
+**Square   <br>**
+<img src="../assets/images/Square.png"  width="600">
+<!-- ![alt text](../assets/images/Square.png "Square") -->
 
 ```
 import turtle
@@ -30,8 +31,9 @@ square(300)
 turtle.mainloop()
 ```
 
-##Triangle   <br>
-![alt text](../assets/images/Triangle.png "Triangle")
+**Triangle   <br>**
+<img src="../assets/images/Triangle.png"  width="600">
+<!-- ![alt text](../assets/images/Triangle.png "Triangle") -->
 
 ```
 import turtle
@@ -52,8 +54,9 @@ turtle.update()
 turtle.mainloop()
 ```
 
-##Star   <br>
-![alt text](../assets/images/Staaar.png "Star")
+**Star   <br>**
+<img src="../assets/images/Staaar.png"  width="600">
+<!-- ![alt text](../assets/images/Staaar.png "Star") -->
 
 ```
 import turtle
