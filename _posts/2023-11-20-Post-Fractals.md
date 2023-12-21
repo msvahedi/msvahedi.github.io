@@ -10,7 +10,7 @@ let's take a look are my works and their codes:   <br>
 - Star
 
 **Square   <br>**
-<img src="../assets/images/Square.png"  width="600">
+<img src="../assets/images/Square.png"  width="300">
 <!-- ![alt text](../assets/images/Square.png "Square") -->
 
 ```
@@ -32,7 +32,7 @@ turtle.mainloop()
 ```
 
 **Triangle   <br>**
-<img src="../assets/images/Triangle.png"  width="600">
+<img src="../assets/images/Triangle.png"  width="300">
 <!-- ![alt text](../assets/images/Triangle.png "Triangle") -->
 
 ```
@@ -55,7 +55,7 @@ turtle.mainloop()
 ```
 
 **Star   <br>**
-<img src="../assets/images/Staaar.png"  width="600">
+<img src="../assets/images/Staaar.png"  width="300">
 <!-- ![alt text](../assets/images/Staaar.png "Star") -->
 
 ```

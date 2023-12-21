@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Hobbies"
-    url: /hobbies/  
   - title: "Gallery"
     url: /gallery/
   - title: "Blog"
