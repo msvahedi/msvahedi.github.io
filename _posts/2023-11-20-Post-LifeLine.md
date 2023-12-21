@@ -12,6 +12,4 @@ You should be able to make a life line of yours like this one bellow so that you
 |--------------|------------------|--------------------------|
 |     2011     |        B         |   entering school        |
 |--------------|------------------|--------------------------|
-|     2017     |        C         |   entering high school   |
-|--------------|------------------|--------------------------|
-|     2023     |        D         |   entering university    |
+|     2023     |        c         |   entering university    |
